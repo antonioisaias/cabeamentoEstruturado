@@ -96,7 +96,7 @@
 %% ====================================
 %% ====================================
 
-\title{Modelo para Projeto de cabeamento estruturado}					% Title of your article goes here
+\title{Projeto de cabeamento estruturado}					% Title of your article goes here
 
 %% ====================================
 
@@ -106,10 +106,11 @@
 
 \preauthor{\begin{flushleft}
 					\large \lineskip 0.5em \usefont{OT1}{phv}{b}{sl} \color{DarkRed}}
-\author{Alexandre L'Erario, Fulano de Tal }  	% Author name goes here
+\author{Antonio Domingos Isaias }  	% Author name goes here
 
 
 \postauthor{\footnotesize \usefont{OT1}{phv}{m}{sl} \color{Black} 
+	                \\Curso de Pós Graduação em Redes de Computadores
 					\\Universidade Tecnológica Federal do Paraná - Câmpus Cornélio Procópio 								% Institution of author
 					\par\end{flushleft}\HorRule}
 
@@ -133,9 +134,9 @@
 %% mude o resumo  do projeto
 %% ====================================
 %% ====================================
-\initial{E}\textbf{ste modelo exemplifica como um projeto de cabeamento estruturado deve ser elaborado. No projeto real,
-	esta seção deve indicar qual seria o propósito do projeto: reestruturar, criar uma estrura sem uma anterior, apresentar uma estrutura ficticia ou real  etc. Deve também conter sua cobertura (quais elementos este projeto aborda): Levantamento da planta física, Elaboração da planta lógica, Equipamentos passivos da rede (memorial descritivo), Levantamento de quantidade/custo, Plano de Certificação e orçamento.
-	No caso de projetos reais, deve conter também o escopo. No projeto real deve conter quais as atividades serão executadas e quais os responsáveis. Deve apresentar também as restrições que serão cumpridas e um possível acordo de nível de serviço (SLA).}
+\initial{E}\textbf{ste projeto tem o propósito de demonstrar a implantação de cabeamento estruturado em uma pequena empresa revendedora de veículos. A estrutura apresentada aqui é fictícia, entretanto, baseia-se em casos reais, pois demonstra um estrutura mínima necessária para atuar neste seguimento.
+	Em projetos desta natureza é comum a cliente primeiro se preocupar com o layout do ambiente, portanto, após o arquiteto preparar a planta do ambiente, é necessário fazer uma planta da infrastrutura de dados que atenda este ambiente, e com está determinar os materiais necessários, custos e fixa um prazo para conclusão da obra  
+	.}
 
 %% ====================================
 \begin{figure}
@@ -167,13 +168,11 @@
 %% ====================================
 %% ====================================
 \section{Introdução}
-Explique nesta primeira seção qual seria o perfil do caso. Perfil do cliente, quantidade de colaboradores, quantidade de equipamentos de TI atualmente.
+Instalação de infrastrutura de rede de computadores para atender a 10 pontos, sendo: 7 (sete) equipamentos desktop, 2 (dois) access point e 1 (uma) impressora multifuncional.
 
-Indique também nesta seção o escopo do projeto.
 
-Apresente um overview do parque tecnológico do caso.
 \subsection{Benefícios}
-Explique quais seriam os benefícios provenientes após a execução deste projeto.
+Criação de ramal exclusivo para cabeamento de dados, assim isolando os cabos de dados dos demais cabos existem no prédio, sem contar a facilidade em adicionar novos pontos, bastando lançado os cabos através das eletrocalhas que serão instaladas. Haverá também dois roteadores wireless que proverá cobertura wi-fi por toda a área da empresa.
 
 \subsection{Organizações Envolvidas}
 Coloque o nome de todas as organizações envolvidas. Se for um projeto real, identifique quais as responsabilidades de cada uma das organizações. É comum que em um projeto de redes (cabeamento), temos várias organizações, sendo que cada uma delas com uma determinada responsabilidade.
@@ -183,14 +182,7 @@ Sugestão: crie uma tabela contento a relação delas.
 
 
 \section{Estado atual}
-Aprente o estado atual da rede. Caso não tenha rede, desconsiderar esta seção.
-
-Caso tenha rede, deixe claro:
-\begin{itemize}
-	\item os passivos de rede atuais:path panels, cabos, etc..;
-	\item as principais reclamações dos usuários. Qual o principal motivo da reestruturação? Efetue uma pesquisa junto aos colaboradores para determinar quais problemas a rede apresenta.
-	\item Observações. Analise a rede e verifique se há estruturas que não se enquadram nas normas ou que indicam suspeita de problemas.
-\end{itemize}
+Prédio em processo de reformado, sem infraestrutura de dados instalada anteriormente.
 
 \section{Requisitos}
 Crie uma enumeração dos requisitos do projeto.
