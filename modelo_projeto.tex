@@ -111,7 +111,9 @@
 
 
 \postauthor{\footnotesize \usefont{OT1}{phv}{m}{sl} \color{Black} 
-	                \\Curso de Pós Graduação em Redes de Computadores
+	                \\CERC04 - Cabeamento Estruturado - Redes VIII
+	                \\Professor Doutor Alexandre L’Erario
+	                \\Curso de Especilização em Redes de Computadores
 					\\Universidade Tecnológica Federal do Paraná - Câmpus Cornélio Procópio 								% Institution of author
 					\par\end{flushleft}\HorRule}
 
@@ -254,8 +256,8 @@ O prédio não possui infraestrutura de dados atualmente.
 \subsection{Topologia}
 Para atender as necessidades expostas no projeto apresentando na planta do ambiente Figura 1 e Figura 2, será necessário a instalação de piso elevado e calhas perfiladas para passagem dos campos de rede. 
 O rack contendo o servidor de aplicação, switch, patch panel, roteadores dos links de internet ficarão na sala do CPD no piso superior.
-Haverá dois access point, um no piso térreo e outro no piso superior, serão suficientes para cobrir toda área da empresa. Os APs propagarão dois SSID, um
-com sufixo 'redeint' que dará acesso a rede lan e servidores, e outro com sufixo 'cliente' que proverá somente acesso web ao clientes durante o período que estiverem na loja.
+Haverá dois access point, um no piso térreo e outro no piso superior, os quais serão suficientes para cobrir toda área da empresa. Os APs propagarão dois SSID, um
+com sufixo 'redeint' que dará acesso a rede lan e servidores, e outro com sufixo 'cliente' (convidado), que proverá somente acesso web ao clientes durante o período que estiverem na loja.
 
 \begin{figure}[H]
 	\centering
@@ -273,7 +275,7 @@ com sufixo 'redeint' que dará acesso a rede lan e servidores, e outro com sufix
 
 
 \subsection{Encaminhamento}
-Os cabos seguirão por calhas perfiladas sobre o piso elevado, e por calhas que interligarão o piso superior ao piso térreo. 
+Os cabos seguirão por calhas perfiladas sobre o piso elevado e interligação do piso superior ao piso térreo. 
 
 \subsection{Memorial descritivo}
 
@@ -329,10 +331,10 @@ A tabela 3 contem a relação de usuários e sua respectiva identificação para
 \end{figure}
 
 \section{Plano de certificação}
-A certificação será executada antes da abertura oficial da loja (inauguração), tendo em vista deixar o ambiente pronto para uso já no primeiro dia útil de trabalho da empresa. A serviço de certificação visará detecta falhas na instalação dos passivos, identificar interferências externa nos cabos, problemas com conectores ou patch panel.
+A certificação será executada antes da abertura oficial da loja (inauguração), tendo em vista deixar o ambiente pronto para uso já no primeiro dia útil de trabalho da empresa. O serviço de certificação visará detecta falhas na instalação dos passivos, identificar interferências externa nos cabos, problemas com conectores ou patch panel.
 Como comprimento máximo do cabo do ponto mais extremo é de 15 metros, não é esperado problema de atenuação quanto a distância.
 Os testes serão realizados do keystone (tomada RJ) do ponto do cliente até o patch panel, os patch cords não necessitarão ser certificados, pois já serão adquiridos de fabrica com esta característica.
-Os testes serão realizados conforme padrão TIA 568-C.2 e, após aprovação de todos os pontos, será emitido relatório detalhado de Wire Map, atenuação, Capacitância, Resistência, NEXT/FEXT, Perda de Retorno e outros parâmetros sobre a eficiência dos passivos testados. Tais relatórios deverão ser arquivados em pasta própria para consultas futuras se houver necessidade.
+Os testes serão realizados conforme padrão TIA 568-C.2 e, após aprovação de todos os pontos, será emitido relatório detalhado de Wire Map, atenuação, Capacitância, Resistência, NEXT/FEXT, Perda de Retorno e outros parâmetros sobre a eficiência dos passivos testados. Tais relatórios deverão ser arquivados em pasta própria para consultas futuras quando houver necessidade.
 
 \section{Plano de manutenção}
 A cada período de 6 (seis) meses é recomendado a inspeção visual na estação física dos equipamento a procura de focos de infiltração de água, vestígios de roedores ou outros fatores que poderão interferir na qualidade da infraestrutura. 
@@ -342,7 +344,7 @@ A cada período de 6 (seis) meses é recomendado a inspeção visual na estaçã
 A estrutura atual de camada 2 possibilita a expansão de mais 12 pontos de rede sem necessidade de troca de equipamentos instalados.
 
 \section{Risco}
-Atraso na instalação ou indisponibilidade de links de dados por parte das operadoras de telefonia.
+Atraso na instalação ou indisponibilidade de links de dados por parte das operadoras de telefonia podem afetar a disponibilidade de internet aos usuários ou comprometer a redundância no acesso.
 
 \section{Orçamento}
 
@@ -382,8 +384,8 @@ Atraso na instalação ou indisponibilidade de links de dados por parte das oper
 
 
 \section{Recomendações}
-Em caso de manutenção sobre o piso elevado será necessário acompanhar a intervenção para garantir que não haverá modificações inadvertidas na rede de dados ou uso das calhas para outros fins que poderão causar interferências e consequentemente problemas instabilidade na rede.
-Quando da instalação de novo ponto, este deverá ser realizado por pessoal qualificado observado o plano de certificação e tabela de identificação dos pontos (ver Tabela 3).
+Em caso de manutenção sobre o piso elevado será necessário acompanhar a intervenção para garantir que não haverá modificações inadvertidas na rede de dados e/ou uso das calhas para outros fins que poderão causar interferências e consequentemente problemas de instabilidade na rede.
+Quando da instalação de novos pontos, estes deverão ser realizados por pessoal qualificado observado o plano de certificação e tabela de identificação dos pontos (ver Tabela 3).
 
 \section{Referências bibliográficas}
 .
