@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.2)  7 JUN 2018 14:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.2)  7 JUN 2018 14:21
 entering extended mode
 **./modelo_projeto.tex
 (modelo_projeto.tex
@@ -1265,20 +1265,20 @@ File: Cronograma.jpg Graphic file (type jpg)
 <use Cronograma.jpg>
 Package pdftex.def Info: Cronograma.jpg  used on input line 326.
 (pdftex.def)             Requested size: 455.24417pt x 108.93785pt.
- [8 <./Cronograma.jpg>]
-Overfull \hbox (0.19023pt too wide) in paragraph at lines 389--390
-\OT1/cmr/m/n/12 https://tex.stackexchange.com/questions/10863/is-there-a-way-to
--slightly-shrink-a-table-
+ [8 <./Cronograma.jpg>] [9]
+Overfull \hbox (2.74655pt too wide) in paragraph at lines 391--392
+[]\OT1/cmr/m/n/12 (-20) https://tex.stackexchange.com/questions/10863/is-there-
+a-way-to-slightly-shrink-a-table-
  []
 
-[9]
-Overfull \hbox (30.14716pt too wide) in paragraph at lines 395--396
+
+Overfull \hbox (30.14716pt too wide) in paragraph at lines 399--400
 []\OT1/cmr/m/n/12 (-20) https://docente.ifrn.edu.br/tadeuferreira/disciplinas/2
 013.2/cabeamento-estruturado/A12.pdf 
  []
 
 
-Overfull \hbox (6.89415pt too wide) in paragraph at lines 398--399
+Overfull \hbox (6.89415pt too wide) in paragraph at lines 403--404
 []\OT1/cmr/m/n/12 (-20) http://blog.samuelcavalcante.com/wp-content/uploads/201
 0/12/03-Aula-de-Cabeamento-
  []
@@ -1315,7 +1315,7 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:
 a.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helve
 tic/uhvbo8a.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /urw/helvetic/uhvro8a.pfb>
-Output written on modelo_projeto.pdf (10 pages, 738386 bytes).
+Output written on modelo_projeto.pdf (10 pages, 738415 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
