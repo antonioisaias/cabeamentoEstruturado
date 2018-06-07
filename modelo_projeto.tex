@@ -170,7 +170,7 @@
 %% ====================================
 \section{Introdução}
 Instalação de infrastrutura de rede de computadores para atender a 10 pontos, sendo: 7 (sete) equipamentos desktop, 2 (dois) access point e 1 (uma) impressora multifuncional.
-Preparação de rack para abrigar 1 servidor, 1 concentrador (switch) e 2 links de dados.
+Preparação de rack para abrigar: 1 servidor, 1 concentrador (switch) e 2 links de dados.
 
 
 \subsection{Benefícios}
@@ -203,7 +203,7 @@ Prédio em processo de reformado, sem infraestrutura de dados instalada anterior
 Devido a exigência de acesso a internet para aprovação de fichas de financiamento pelos bancos credenciados, é esperado máxima disponibilidade no acesso e redundância de link. 
 
 \section{Usuários e Aplicativos}
-Os usuários basicamente terão acesso a internet e ao sistema de ERP da empresa, a seção de contabilidade terá acesso à softwares contábeis e de folha de pagamento. O ERP da empresa e os softwares contábeis serão instalados no servidor e terão uma necessidade de garantia de disponibilidade média, entretanto, o acesso a internet a garantia de disponibilidade é alta.  Há um desejo dos responsáveis pela empresa em criar um departamento para vendas pela internet, entretanto, o local para instalação física ainda não foi definido.
+Os usuários basicamente terão acesso a internet e ao sistema de ERP da empresa, a seção de contabilidade terá acesso à softwares contábeis e de folha de pagamento. O ERP da empresa e os softwares contábeis serão instalados no servidor e terão uma necessidade de garantia de disponibilidade média, entretanto, no acesso a internet a garantia de disponibilidade deverá ser alta.  Há um desejo dos responsáveis pela empresa em criar um departamento para divulgações e vendas pela internet, entretanto, o local para instalação física ainda não foi definido.
 
 \subsection{Usuários x Aplicativos}
 
@@ -253,9 +253,9 @@ O prédio não possui infraestrutura de dados atualmente.
 
 \subsection{Topologia}
 Para atender as necessidades expostas no projeto apresentando na planta do ambiente Figura 1 e Figura 2, será necessário a instalação de piso elevado e calhas perfiladas para passagem dos campos de rede. 
-O rack contendo o servidor de aplicação, switch, patch panel, roteadores dos dos links de internet ficarão na sala do CPD no piso superior.
+O rack contendo o servidor de aplicação, switch, patch panel, roteadores dos links de internet ficarão na sala do CPD no piso superior.
 Haverá dois access point, um no piso térreo e outro no piso superior, serão suficientes para cobrir toda área da empresa. Os APs propagarão dois SSID, um
-com sufixo 'redeint' que dará acesso a rede lan e servidores e outro com sufixo 'cliente' que proverá somente acesso web ao clientes durante o período que estiverem na loja.
+com sufixo 'redeint' que dará acesso a rede lan e servidores, e outro com sufixo 'cliente' que proverá somente acesso web ao clientes durante o período que estiverem na loja.
 
 \begin{figure}[H]
 	\centering
@@ -294,7 +294,7 @@ Os cabos seguirão por calhas perfiladas sobre o piso elevado, e por calhas que 
 \end{table}
 
 \subsection{Identificação dos cabos}
-Os cabos serão identificados nas extremidades dos pontos, seguindo o seguinte padrão: XXY, onde XX representa a porta do patch panel e Y representa o andar onde será instalado o ponto, sendo A para o piso térreo e B para o piso superior.
+Os cabos serão identificados nas extremidades dos pontos, seguindo o  padrão: XXY, onde XX representa a porta do patch panel e Y representa o andar onde será instalado o ponto, sendo A para o piso térreo e B para o piso superior.
 A tabela 3 contem a relação de usuários e sua respectiva identificação para os pontos que já foram definidos, conforme plantas da Figura 3 e Figura 4. 
 
 \begin{table}[H]

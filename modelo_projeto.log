@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.2)  7 JUN 2018 13:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.2)  7 JUN 2018 14:08
 entering extended mode
 **./modelo_projeto.tex
 (modelo_projeto.tex
@@ -1291,11 +1291,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11912 strings out of 493305
- 196278 string characters out of 3128933
+ 11918 strings out of 493305
+ 196328 string characters out of 3128933
  538708 words of memory out of 3000000
  15133 multiletter control sequences out of 15000+200000
- 25332 words of font info for 99 fonts, out of 3000000 for 9000
+ 25479 words of font info for 102 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,12n,77p,9095b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Antonio/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.e
@@ -1315,7 +1315,7 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:
 a.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helve
 tic/uhvbo8a.pfb><C:/Users/Antonio/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /urw/helvetic/uhvro8a.pfb>
-Output written on modelo_projeto.pdf (10 pages, 738375 bytes).
+Output written on modelo_projeto.pdf (10 pages, 738386 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
